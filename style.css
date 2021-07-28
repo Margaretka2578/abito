@@ -1,0 +1,164 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #0a143a;
+}
+.container {
+  max-width: 1146px;
+  margin: auto;
+}
+.header { 
+  padding: 30px 0;
+  margin-bottom: 12px;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+.navbar-menu {
+  margin-right: auto;
+}
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0 22px;
+}
+.menu-item:not(:last-child) {
+  margin-right: 14px;
+}
+.menu-link {
+  text-decoration: none;
+  color: inherit;
+}
+.button {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+.button-link {
+  color: inherit;
+}
+.button-primary {
+  color: #fff;
+  background: #256eeb;
+  border-radius: 5px;
+}
+.search-panel {
+  display: flex;
+  height: 50px;
+  padding: 3px;
+  background: #256eeb;
+  border-radius: 5px;
+}
+.search-input {
+  flex-grow: 1;
+  border-radius: 5px;
+  border: none;
+  padding: 0 22px;
+}
+.search-button {
+  display: flex;
+  align-items: center;
+  background: #256eeb;
+  border: none;
+  color: #fff;
+  padding-left: 20px;
+  padding-right: 17px;
+}
+.search-button-text {
+  margin-left: 5px;
+}
+.page-content {
+  display: grid;
+  grid-template-columns: 9fr 3fr;
+  grid-column-gap: 30px;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.card:not(:nth-child(3n)) {
+  margin-bottom: 20px;
+  margin-right: 20px;
+ }
+.card-link {
+  text-decoration: none;
+} 
+.card-title {  
+  font-size: 16px;
+  line-height: 19px;
+  color:#256eeb
+ }
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items:center
+}
+.card-image {
+  width:264px;
+  height: 178px;
+  border-radius: 10px;
+  object-fit:cover
+}
+.like {
+  margin-left: 15px;
+  background:#fff;
+  border:none;
+  cursor:pointer;  
+ }
+.card-price {
+  display: block;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 10px;
+}
+.card-text {
+  font-size: 14px;
+  line-height: 16px;
+  color: #c4c4c4;
+  margin-bottom: 4px;
+  margin-top: 0;
+}
+.sidebar .page-title {
+  font-size: 18px;
+  line-height: 21px;
+}
+.service {
+  margin-bottom: 25px;
+}
+.service-title {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: bold;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+.service-text {
+  font-size: 14px;
+  line-height: 16px;
+  max-width: 217px;
+}
+.footer-text {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 16px;
+  color:#c4c4c4;
+  margin-bottom:5px
+}
+.footer-menu {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 16px;
+  list-style: none
+}
+.footer-link {
+  display: inline-block;
+  color: inherit;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
