@@ -21,23 +21,42 @@
             <a href="/" class="logo">
                 <img class="logo-image" src="img/logo.svg" alt="Abito">
             </a>
-            <nav class="navbar-menu">
-                <ul class="menu">
-                    <li class="menu-item"><a class="menu-link" href="#">Авто</a></li>
-                    <li class="menu-item"><a class="menu-link" href="#">Недвижмость</a></li>
-                    <li class="menu-item"><a class="menu-link" href="#">Работа</a></li>
-                    <li class="menu-item"><a class="menu-link" href="#">Услуги</a></li>
-                </ul>
-            </nav>
-            <div class="button-group">
-                <a href="#" class="button button-link">Вход и регистрация</a>
-                <a href="#" class="button button-primary">Подать объявление</a>
+            <div class="navbar-panel">
+                <button class="close-menu">
+                    <svg width="24" height="23" viewBox="0 0 24 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line y1="-0.5" x2="31.1127" y2="-0.5" transform="matrix(0.707107 0.707107 -0.602121 0.798405 1 1)"
+                            stroke="black" />
+                        <line y1="-0.5" x2="31.1127" y2="-0.5" transform="matrix(0.707107 -0.707107 0.602121 0.798405 1 23)"
+                            stroke="black" />
+                    </svg>
+                </button>
+    
+                <nav class="navbar-menu">
+                    <ul class="menu">
+                        <li class="menu-item"><a class="menu-link" href="#">Авто</a></li>
+                        <li class="menu-item"><a class="menu-link" href="#">Недвижмость</a></li>
+                        <li class="menu-item"><a class="menu-link" href="#">Работа</a></li>
+                        <li class="menu-item"><a class="menu-link" href="#">Услуги</a></li>
+                    </ul>
+                </nav>
+                <div class="button-group">
+                    <a href="#" class="button button-link">Вход и регистрация</a>
+                    <a href="#" class="button button-primary">Подать объявление</a>
+                </div>
             </div>
+            <button class="menu-button">
+                <svg width="22" height="15" viewBox="0 0 22 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <line y1="0.5" x2="22" y2="0.5" stroke="black" />
+                    <line y1="7.5" x2="22" y2="7.5" stroke="black" />
+                    <line y1="14.5" x2="22" y2="14.5" stroke="black" />
+                </svg>
+    
+            </button>
         </div>
         <div class="search-panel">
             <input class="search-input" type="search" placeholder="Поиск по объявлениям">
             <button class="search-button">
-
+    
                 <svg class="search-icon" width="15" height="15" viewBox="0 0 15 15" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0)">
@@ -51,7 +70,7 @@
                         </clipPath>
                     </defs>
                 </svg>
-
+    
                 <span class="search-button-text">Найти</span>
             </button>
         </div>
@@ -252,6 +271,7 @@
             </footer>
         </aside>
     </div>
+    <div class="darken"></div>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
 </body>
